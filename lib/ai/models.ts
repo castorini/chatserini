@@ -11,6 +11,20 @@ export interface Model {
 export const models: Array<Model> = [
 // Chat models
   {
+    id: 'gpt-4o-mini',
+    label: 'GPT 4o mini',
+    apiIdentifier: 'gpt-4o-mini',
+    description: 'Ask me a question about your queries!',
+    type: 'chat'
+  },
+  {
+    id: 'gpt-4o',
+    label: 'GPT 4o',
+    apiIdentifier: 'gpt-4o',
+    description: 'For complex questions about queries',
+    type: 'chat'
+  },
+  {
     "id": "anserini-cacm",
     "label": "CACM",
     "apiIdentifier": "anserini-java",
